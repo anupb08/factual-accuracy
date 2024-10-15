@@ -3,15 +3,15 @@
 ## Prerequisite: Python 3.6 or higher versions
 ## create python environemnt
 python3 -m venv .env
-# enable environment
+## enable environment
 source .env/bin/activate
 
-# Install all packages in requirement.txt
+## Install all packages in requirement.txt
 pip3 install -r requirement.txt
 python -m spacy download en_core_web_sm
 
-# RESULT
-# run the following files
+## RESULT
+### run the following test files
 
 # original liquidity file  input/Liquidity_summary_dynamics_rag.csv
 # manually corrected file input/Liquidity_summary_dynamics_corrected_rag.csv
