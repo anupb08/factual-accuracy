@@ -13,8 +13,8 @@ python -m spacy download en_core_web_sm
 
 ## RESULT
 ### run the following test files. The testdata folder has 8 test files for 4 test dataset with original gpt4 summary and manual corrected ones.
-python infer.py 'testdata/bbc-business-news-summary - extractive.csv'  
-python infer.py 'testdata/bbc-business-news-summary - gpt4 - corrected.csv' 
+python infer.py 'testdata/bbc-business-news-summary - extractive.csv'  '<br>'
+python infer.py 'testdata/bbc-business-news-summary - gpt4 - corrected.csv' '<br>'
 python infer.py 'testdata/bbc-business-news-summary - gpt4 - original.csv'
 python infer.py 'testdata/findsum_subset - gpt4 - corrected.csv'
 python infer.py 'testdata/findsum_subset - gpt4 - original.csv'
