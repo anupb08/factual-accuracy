@@ -15,13 +15,13 @@ python -m spacy download en_core_web_sm
 ### run the following test files. The testdata folder has 8 test files for 4 test dataset with original gpt4 summary and manual corrected ones.
 python infer.py 'testdata/bbc-business-news-summary - extractive.csv'  '<br>'
 python infer.py 'testdata/bbc-business-news-summary - gpt4 - corrected.csv' '<br>'
-python infer.py 'testdata/bbc-business-news-summary - gpt4 - original.csv'
-python infer.py 'testdata/findsum_subset - gpt4 - corrected.csv'
-python infer.py 'testdata/findsum_subset - gpt4 - original.csv'
-python infer.py 'testdata/indian_financial_news - T5 - corrected.csv'
-python infer.py 'testdata/indian_financial_news - T5 - original.csv'
-python infer.py 'testdata/us_financial_news - gpt4 - corrected.csv'
-python infer.py 'testdata/us_financial_news - gpt4 - original.csv'
+python infer.py 'testdata/bbc-business-news-summary - gpt4 - original.csv'  '<br>'
+python infer.py 'testdata/findsum_subset - gpt4 - corrected.csv'  '<br>'
+python infer.py 'testdata/findsum_subset - gpt4 - original.csv'  '<br>'
+python infer.py 'testdata/indian_financial_news - T5 - corrected.csv'  '<br>'
+python infer.py 'testdata/indian_financial_news - T5 - original.csv'  '<br>'
+python infer.py 'testdata/us_financial_news - gpt4 - corrected.csv'   '<br>'
+python infer.py 'testdata/us_financial_news - gpt4 - original.csv'   '<br>'
 
 
 ### the corresponding result files are stored in the "results" folder  
