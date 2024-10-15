@@ -1,16 +1,16 @@
 # factual-accuracy: validating numerical values in finacial summaries
 
 # Prerequisite: Python 3.6 or higher versions
-#create python environemnt
+## create python environemnt
 python3 -m venv .env
-#enable environment
+# enable environment
 source .env/bin/activate
 
-#Install all packages in requirement.txt
+# Install all packages in requirement.txt
 pip3 install -r requirement.txt
 python -m spacy download en_core_web_sm
 
-#RESULT
+# RESULT
 # run the following files
 
 # original liquidity file  input/Liquidity_summary_dynamics_rag.csv
