@@ -76,7 +76,7 @@ df["preds"] = preds
     #df["compare"] = [str(a) == str(b) for a, b in zip(preds, labels)]
     #df["corrected"] = labels
 
-df.to_csv('output_wprev/'+filename, index=False)
+df.to_csv('results/'+filename, index=False)
     #metric = evaluate.load("exact_match")
     #result = metric.compute(predictions=preds, references=labels)
     #print(result)
