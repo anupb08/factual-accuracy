@@ -1,6 +1,6 @@
 # factual-accuracy: validating numerical values in finacial summaries
 
-# Prerequisite: Python 3.6 or higher versions
+## Prerequisite: Python 3.6 or higher versions
 ## create python environemnt
 python3 -m venv .env
 # enable environment
