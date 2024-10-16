@@ -1,7 +1,7 @@
 # factual-accuracy: validating numerical values in finacial summaries
 
 ## Prerequisite: Python 3.6 or higher versions
-## clone the git repo and unzip the model checkpoint-22588.zip
+## clone the git repo and download the model checkpoint-22588 at the google drive [link]([url](https://drive.google.com/drive/folders/1VAH5KL5v10CTpaMapj65aO267EMJlKkL?usp=sharing))
 ## create python environemnt
 python3 -m venv .env
 ## enable environment
