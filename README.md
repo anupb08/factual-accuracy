@@ -1,36 +1,38 @@
 # factual-accuracy: validating numerical values in finacial summaries
 
+## The FactCheck model prediction results are available under "results" folder.  
+
 ## Prerequisite: Python 3.6 or higher versions
-## clone the git repo and download the model checkpoint-22588 at the google drive [link](https://drive.google.com/drive/folders/1VAH5KL5v10CTpaMapj65aO267EMJlKkL?usp=sharing)
+## clone the git repo and download the model checkpoint-22588 from the google drive [link](https://drive.google.com/drive/folders/1VAH5KL5v10CTpaMapj65aO267EMJlKkL?usp=sharing)
 ## create python environemnt
 python3 -m venv .env
 ## enable environment
 source .env/bin/activate
 
 ## Install all packages in requirement.txt
-pip3 install -r requirement.txt
-python -m spacy download en_core_web_sm
+pip3 install -r requirement.txt   <br>
+python -m spacy download en_core_web_sm  
 
 ## RESULT
 ### run the following test files. The testdata folder has 8 test files for 4 test dataset with original gpt4 summary and manual corrected ones.
-python infer.py 'testdata/bbc-business-news-summary - extractive.csv'  '<br>'
-python infer.py 'testdata/bbc-business-news-summary - gpt4 - corrected.csv' '<br>'
-python infer.py 'testdata/bbc-business-news-summary - gpt4 - original.csv'  '<br>'
-python infer.py 'testdata/findsum_subset - gpt4 - corrected.csv'  '<br>'
-python infer.py 'testdata/findsum_subset - gpt4 - original.csv'  '<br>'
-python infer.py 'testdata/indian_financial_news - T5 - corrected.csv'  '<br>'
-python infer.py 'testdata/indian_financial_news - T5 - original.csv'  '<br>'
-python infer.py 'testdata/us_financial_news - gpt4 - corrected.csv'   '<br>'
-python infer.py 'testdata/us_financial_news - gpt4 - original.csv'   '<br>'
+python infer.py 'testdata/bbc-business-news-summary - extractive.csv'  <br>
+python infer.py 'testdata/bbc-business-news-summary - gpt4 - corrected.csv' <br>
+python infer.py 'testdata/bbc-business-news-summary - gpt4 - original.csv'  <br>
+python infer.py 'testdata/findsum_subset - gpt4 - corrected.csv'  <br>
+python infer.py 'testdata/findsum_subset - gpt4 - original.csv'  <br>
+python infer.py 'testdata/indian_financial_news - T5 - corrected.csv'  <br>
+python infer.py 'testdata/indian_financial_news - T5 - original.csv'  <br>
+python infer.py 'testdata/us_financial_news - gpt4 - corrected.csv'   <br>
+python infer.py 'testdata/us_financial_news - gpt4 - original.csv'   <br>
 
 
 ### the corresponding result files are stored in the "results" folder  
 
-### original findsum_subset and india_financial_news dataset files are in "orginal" folder.
+### original findsum_subset and india_financial_news test dataset files are in "orginal" folder.
 
 # To Train the model
 ### the train dataset are avialble under "train" folder
-### run the follwoing command
+### run the follwoing command to finetune the T5-base model
 python train.py
 ### The trained model is saved in checkpoint-22588 
 
