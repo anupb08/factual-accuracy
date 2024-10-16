@@ -3,7 +3,7 @@
 ## The FactCheck model prediction results are available under "results" folder.  
 
 ## Prerequisite: Python 3.6 or higher versions
-## clone the git repo and download the model checkpoint-22588 from the google drive [link](https://drive.google.com/drive/folders/1VAH5KL5v10CTpaMapj65aO267EMJlKkL?usp=sharing)
+## clone the git repo and download the finetuned model checkpoint-22588 from the google drive [link](https://drive.google.com/drive/folders/1VAH5KL5v10CTpaMapj65aO267EMJlKkL?usp=sharing)
 ## create python environemnt
 python3 -m venv .env
 ## enable environment
