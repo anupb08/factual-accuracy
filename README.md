@@ -38,8 +38,8 @@ python train.py
 
 ## Description of the other python scripts
 ### 1. rag_pipeline.py : this file used to select best passage for each sentence in the summary after splitting the source document.
-### 2. doc_chunking.py: ths script is used to split the training dataset in smaller passages
-### 3. semantic_chunking.py : Thsi script split source document in smaller passages based on similarity score of the consecuative sentecnes.  this script is internally called from  rag_pipeline.py & doc_chunking.py
+### 2. doc_chunking.py: this script is used to split the training dataset in smaller passages
+### 3. semantic_chunking.py : This script split source document in smaller passages based on similarity score of the consecuative sentecnes.  this script is internally called from  rag_pipeline.py & doc_chunking.py
 ### 4. dataProcessing.py: this script mask the numerical values and create final input data to teh model.
 
 ### Apache License Version 2.0
